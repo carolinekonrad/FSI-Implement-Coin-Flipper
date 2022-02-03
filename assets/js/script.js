@@ -17,7 +17,6 @@ let numHeadRolls = 0
 let numTailRolls = 0
 
 
-//flip the penny
 let flipPenny = document.querySelector('#flip')
 flipPenny.addEventListener('click', function(){
     let rolledValue = Math.round(Math.random() * 100)
